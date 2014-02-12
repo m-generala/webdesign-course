@@ -1,0 +1,33 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+.main {
+background: silver;
+overflow: hidden;
+}
+
+.content, .sidebar {
+float: left;
+color: black;
+}
+
+.content {
+width: 70%;
+background: green;
+}
+
+.sidebar {
+width: 30%;
+background: red;
+}
+
+.container {
+width: 800px;
+margin: 0 auto;
+padding: 10px;
+border: 1px solid black;
+border-width: 1px 1px;
+background: yellow;
+}
