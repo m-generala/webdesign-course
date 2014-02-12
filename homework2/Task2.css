@@ -1,0 +1,43 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.container {
+width: 800px;
+margin: 0 auto;
+padding: 100px;
+border: 1px solid black;
+border-width: 1px 1px;
+background: yellow;
+}
+
+.main {
+background: green;
+overflow: hidden;
+}
+
+.sidebar, .content {
+float:left ;
+}
+
+.sidebar {
+background: red;
+width: 30%;
+}
+
+.content {
+background: silver;
+width: 70%;
+}
+
+.header {
+text-align: center;
+background:blue;
+}
+
+.footer {
+clear: both;
+text-align: center;
+background:blue;
+}
