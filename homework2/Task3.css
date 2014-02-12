@@ -1,0 +1,46 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+.container {
+background: red;
+width: 500px;
+margin: 0px auto;
+border: 1px solid black;
+}
+
+.main {
+
+}
+
+.lsidebar, .content, .rsidebar {
+float:left;
+overflow: hidden;
+}
+
+.lsidebar {
+background: blue;
+width: 20%;
+}
+
+.content {
+background: silver;
+width: 65%;
+}
+
+.rsidebar {
+background: green;
+width: 15%;
+}
+
+.header {
+background: yellow;
+text-align: center;
+}
+
+.footer {
+background: yellow;
+text-align: center;
+clear: both;
+}
